@@ -1,4 +1,4 @@
-function validation() {
+function cpfValidationInput() {
   document.querySelector("#success").style.display = "none";
   document.querySelector("#error").style.display = "none";
 
@@ -11,9 +11,21 @@ function validation() {
 }
 
 function cpfValidation(cpf) {
-  let cpfFormatted = cpf.replace(/\.|\-/gi, "");
+  const cpfFormatted = cpf.replace(/\.|\-/gi, "");
+  const cpfBlackList = [
+    "00000000000",
+    "11111111111",
+    "22222222222",
+    "33333333333",
+    "44444444444",
+    "55555555555",
+    "66666666666",
+    "77777777777",
+    "88888888888",
+    "99999999999",
+  ];
 
-  if (cpfFormatted.length != 11) {
+  if (cpfFormatted.length != 11 || cpfBlackList.includes(cpfFormatted)) {
     return false;
   } else {
     const digits = cpfFormatted.split("");
