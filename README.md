@@ -1,6 +1,6 @@
  # ✔️ Validador de CPF.
 > - 👉 Projeto do treinamento Hiringcoders - Semana 1 - Javascript Básico - Prática.
-> - 🔗 Deploy: https://thiagolp7.github.io/rocket-nfts/ 
+> - 🔗 Deploy: https://thiagolp7.github.io/hiringcoders-cpf-validation/
 
 
 
