@@ -7,7 +7,7 @@
 ---
 ## 📌 Implementação
 
-- [x] Recusar cpf commenos de 11 números.
+- [x] Recusar cpf com menos de 11 números.
 - [x] Recusar cpf que tenha todos números iguais.
 - [x] Calculo para validação dos dois ultimos dígitos.
 - [x] Permitir que o usuário use pontos e traço, formatação do input do cpf com regex.
